@@ -1,3 +1,9 @@
+#include<studio.h>
+#include<cs50.h>
+#include<ctype.h>
+#include<assert.h>
+#include<string.h>
+
 
 string ari(string s){
 int charact=0,word=0,sent=0;
