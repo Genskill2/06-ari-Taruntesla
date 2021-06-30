@@ -1,3 +1,5 @@
+
+string ari(string s){
 int charact=0,word=0,sent=0;
  for(int i=0;s[i]!='\0';i++){
 	 if(isalnum((int)s[i]))
@@ -30,3 +32,4 @@ int charact=0,word=0,sent=0;
 	else if(rari==12)return "Twelfth grade";
 	else if(rari==13)return "College student";
 	else if(rari>=14)return "Professor";
+}
